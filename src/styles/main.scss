@@ -1,0 +1,26 @@
+@use "hero";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+    font-weight: bolder;
+}
+
+.container {
+/* dimensão */
+    max-width: 75vw;
+    width: 100%;
+/* disposição */
+    margin: 0 auto;
+
+
+    @media (max-width: 640px) {
+        max-width: 70vw;
+    }
+
+        @media (max-width: 1024px) {
+        max-width: 75vw;
+    }
+}

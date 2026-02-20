@@ -1,0 +1,17 @@
+{
+  "name": "01---parcel",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "parcel src/index.html src/images/* src/styles/* src/scripts/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4",
+    "sharp": "^0.33.5"
+  }
+}
